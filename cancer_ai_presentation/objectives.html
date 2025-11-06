@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Objectives</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #ffffff;
+            font-family: 'Inter', sans-serif;
+            padding: 60px;
+        }
+        .header-text {
+            color: #2563eb;
+            font-weight: bold;
+        }
+        .content-text {
+            color: #1f2937;
+            line-height: 1.6;
+        }
+        .objective-item {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            border-left: 4px solid #10b981;
+            transition: transform 0.2s ease;
+        }
+        .objective-item:hover {
+            transform: translateX(5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="grid grid-cols-2 gap-12 h-full">
+            <!-- Left Column - Content -->
+            <div class="flex flex-col justify-center">
+                <h1 class="header-text text-4xl mb-8">
+                    <i class="fas fa-bullseye mr-3"></i>
+                    Project Objectives
+                </h1>
+                
+                <div class="content-text space-y-6">
+                    <div class="objective-item p-6 rounded-lg">
+                        <div class="flex items-start">
+                            <i class="fas fa-robot text-blue-600 text-2xl mt-1 mr-4"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Develop AI-Driven Platform</h3>
+                                <p class="text-base">
+                                    Create a comprehensive platform for cancer research data analysis 
+                                    using advanced AI and machine learning techniques.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-item p-6 rounded-lg">
+                        <div class="flex items-start">
+                            <i class="fas fa-link text-green-600 text-2xl mt-1 mr-4"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Integrate Multiple Datasets</h3>
+                                <p class="text-base">
+                                    Seamlessly integrate TCGA, CRDC, TCIA, and CDC datasets into 
+                                    a unified analytical framework for comprehensive analysis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-item p-6 rounded-lg">
+                        <div class="flex items-start">
+                            <i class="fas fa-brain text-purple-600 text-2xl mt-1 mr-4"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Implement ML Models</h3>
+                                <p class="text-base">
+                                    Build and validate machine learning models for survival prediction, 
+                                    drug response, and medical image classification.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="objective-item p-6 rounded-lg">
+                        <div class="flex items-start">
+                            <i class="fas fa-desktop text-amber-600 text-2xl mt-1 mr-4"></i>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-2">Create User-Friendly Interface</h3>
+                                <p class="text-base">
+                                    Develop an intuitive web-based interface for data visualization 
+                                    and model interaction accessible to researchers and clinicians.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column - Image -->
+            <div class="flex items-center justify-center">
+                <img src="/home/ubuntu/upload/search_images/TKSKtwbzLgQw.jpeg" 
+                     alt="Healthcare Technology Future" 
+                     style="width: 500px; height: 400px; object-fit: cover; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
